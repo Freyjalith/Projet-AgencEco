@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- titre de la page -->
+  <title>AgencEco</title>
+
+  <!-- style de la page -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- Typographie -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- Menu de navigation -->
+    <nav>
+      <a>
+        <div class="logo">
+          <h1>Agenc<i>eco</i></h1>
+        </div>
+      </a>
+
+      <div class="menu" id="menu">
+        <ul>
+          <li>
+          <a href="#accueil">Accueil</a>
+          </li>
+
+          <li>
+          <a href="#equipe">Notre equipes</a>
+          </li>
+
+          <li>
+          <a href="#service">Nos services</a>
+          </li>
+
+          <li>
+          <a href="#temoignage">Témoignages</a>
+          </li>
+
+          <li>
+          <a href="#contact">Nous contacter</a>
+          </li>
+
+          <li>
+          <a href="#galerie">Notre galerie</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="burger" id="burger"> <!-- Menu pour mobile -->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <script src="script/script.js"></script> <!-- Script du dossier java -->
+
+  <main>
+    <!-- Section acceuil -->
+    <section id="accueil" class="accueil-introduction">
+      <img src="ressource-agence-eco/resources/rodion-kutsaev-049M_crau5k-unsplash 1.jpg" alt="photo-feuillage" class="banner">
+      <div>
+        <h1>Bienvenue dans votre votre
+          <br>
+          <span class="color-text">agence web écologique</span>
+        </h1>
+      </div>
+    </section>
+    
+    <!-- Section equipe -->
+    <section id="equipe" class="section-equipe">
+      <h2>Notre équipe</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Donec sed leo in.</p>
+      <div class="equipe-container">
+        <div class="equipe-card">
+          <img class="img_equipe" src="ressource-agence-eco/resources/image 1.jpg" alt="image1">
+          <h3>Julie Dupond</h3>
+          <p>consectetur adipisicing elit. 
+          <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+        <div class="equipe-card">
+          <img class="img_equipe" src="ressource-agence-eco/resources/image 2.jpg" alt="image2">
+          <h3>Romeo Sylla</h3>
+          <p>consectetur adipisicing elit.
+          <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+        <div class="equipe-card">
+          <img class="img_equipe" src="ressource-agence-eco/resources/image 3.jpg" alt="image3">
+          <h3>Javier Bardem</h3>
+          <p>consectetur adipisicing elit.
+          <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Section chiffres -->
+    <section id="chiffres" class="section-chiffres">
+      <div class="container-chiffres">
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p>Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p>Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p>Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p>Clients sastisfait</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section services -->
+    <section id="service" class="section-services">
+      <h2>Notre services</h2>
+      <div class="services-container">
+        <div class="services-card">
+          <img src="ressource-agence-eco/resources/Vector.jpg" alt="vitrine">
+          <h3>Création de site web</h3>
+        </div>
+        <div class="services-card">
+          <img src="ressource-agence-eco/resources/Vector-1.jpg" alt="diagrame">
+          <h3>Audit qualité</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="section-contact">
+    <h2>Contactez-nous</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Donec sed leo in.</p>
+    <form method="get" action="">
+      <div class="form-nom-categorie">
+        <div class="form-column">
+          <label for="nom">Nom</label>
+          <input type="text" name="nom" id="nom" required>
+        </div>
+        <div class="form-column">
+          <label for="categorie">Catégorie</label>
+          <input type="text" name="categorie" id="categorie" required>
+        </div>
+      </div>  
+      <div class="form-telephone-ville">  
+        <div class="form-column">
+          <label for="telephone">Téléphone</label>
+          <input type="tel" name="telephone" id="telephone" required>
+        </div>
+
+        <div class="form-column">
+          <label for="ville">Ville</label>
+          <input type="text" name="ville" id="ville" required>
+        </div>
+      </div> 
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="10"></textarea>
+      
+        <input type="submit" value="Envoyer" class="cta"> 
+    </form>
+    </section>
+
+    <!--Section A propos-->
+    <section>
+
+
+    </section>
+
+    <!-- Section Notre galerie -->
+    <section id="galerie" class="section-galerie">
+      <h2>Notre galerie</h2>
+      <div class="galerie-container">
+           <img src="ressource-agence-eco/resources/kevin-bhagat-zNRITe8NPqY-unsplash 1.jpg" alt="exemple">
+      </divs=>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+  
+</body>
+</html>
