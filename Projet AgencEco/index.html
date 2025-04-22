@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AgencEco</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav >
+      <a><div class="logo">
+        <h1><strong>Agenc<i>eco</i></strong></h1>
+      </div></a>
+
+      <div class="menu menu-closed" id="menu">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#equipe">Notre équipe</a></li>
+          <li><a href="#service">Nos services</a></li>
+          <li><a href="#temoignage">Témoignages</a></li>
+          <li><a href="#contact">Nous contacter</a></li>
+          <li><a href="#galerie">Notre galerie</a></li>
+        </ul>
+      </div>
+      <div class="burger-menu" id="burger-menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <script src="script/script.js"></script>
+
+  <main>
+    <section id="accueil" class="accueil-introduction">
+      <a href="360.html"><img src="ressource-agence-eco/resources/rodion-kutsaev-049M_crau5k-unsplash1.jpg" alt="photo-feuillage" class="banner"></a>
+      <div>
+        <h1>Bienvenue dans votre <br><span class="color-text">agence web écologique</span></h1>
+      </div>
+    </section>
+
+    <section id="equipe" class="section-equipe mt-100">
+      <h2 class="color-texte">Notre équipe</h2>
+      <p class="mt-20"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Donec sed leo in nisi vehicula bibendum. Aliquam sit blandit nisi, sodales molestie.</strong></p>
+      <div class="equipe-container">
+        <div class="equipe-card ">
+          <img class="img_equipe mt-50" src="ressource-agence-eco/resources/image1.jpg" alt="image1">
+          <h3>Julie Dupond</h3>
+          <p class="mt-20">consectetur adipisicing elit. <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+        <div class="equipe-card">
+          <img class="img_equipe mt-50" src="ressource-agence-eco/resources/image2.jpg" alt="image2">
+          <h3>Romeo Sylla</h3>
+          <p class="mt-20">consectetur adipisicing elit. <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+        <div class="equipe-card ">
+          <img class="img_equipe mt-50" src="ressource-agence-eco/resources/image3.jpg" alt="image3">
+          <h3>Javier Bardem</h3>
+          <p class="mt-20">consectetur adipisicing elit. <br>Donec sed leo in nisi vehicula bibendum</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="temoignage" class="section-chiffres mt-50">
+      <div class="container-chiffres">
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p class="mt-20">Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p class="mt-20">Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p class="mt-20">Clients satisfaits</p>
+        </div>
+        <div class="chiffres-card">
+          <h3>2500</h3>
+          <p class="mt-20">Clients sastisfait</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="section-services mt-50">
+      <h2 class="color-texte">Nos services</h2>
+      <div class="services-container">
+        <div class="services-card mt-50">
+          <div class="ico">
+            <img class="service" src="ressource-agence-eco/resources/Vector.jpg" alt="vitrine">
+          </div>
+          <h3>Création de site web</h3>
+        </div>
+        <div class="services-card mt-50">
+          <div class="ico">
+            <img class="service" src="ressource-agence-eco/resources/Vector-1.jpg" alt="diagrame">
+          </div>
+          <h3>Audit qualité</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-contact mt-50">
+      <h2>Contactez-nous</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Donec sed leo in.</p>
+
+      <form id="formulaire" method="get" action="form">
+        <div class="form-nom-categorie">
+          <div class="form-column"><input type="text" name="nom" id="nom" placeholder="Nom" required></div>
+
+          <div class="form-column"><input type="text" name="categorie" id="categorie" placeholder="Catégorie" required></div>
+        </div>
+
+        <div class="form-telephone-ville">
+          <div class="form-column"><input type="tel" name="telephone" id="telephone" placeholder="Téléphone" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required></div>
+
+          <div class="form-column"><input type="text" name="ville" id="ville" placeholder="Ville" required></div>
+        </div>
+
+        <div class="form-column"><input type="email" name="email" id="email" placeholder="Email" required></div>
+
+        <div class="form-column"><textarea name="message" id="message" placeholder="Message" rows="10"></textarea></div>
+
+        <input type="submit" value="Envoyer" class="cta">
+      </form>
+    </section>
+
+    <section id="a-propos" class="section-a-propos mt-50">
+      <div class="grid-container">
+        <img class="openspace" src="ressource-agence-eco/resources/jason-goodman-Oalh2MojUuk-unsplash1.jpg" alt="bureau">
+        <div class="propos">
+          <div class="a-propos-container">
+            <h2>À propos de nous</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Donec sed leo in adipisicing.</p>
+          </div>
+
+          <div class="icon-container-wrapper">
+
+            <div class="icon-container"><div class="icon"><img src="ressource-agence-eco/resources/Vector-2.jpg" alt="Écologique"></div>
+            <p >Écologique</p></div>
+
+            <div class="icon-container"><div class="icon"><img src="ressource-agence-eco/resources/Vector-3.jpg" alt="Responsable"></div>
+            <p >Responsable</p></div>
+
+            <div class="icon-container"><div class="icon"><img src="ressource-agence-eco/resources/Vector-4.jpg" alt="24/7 Assistance"></div>
+            <p >24/7 Assistance</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerie" class="section-galerie mt-50">
+      <h2 class="color-texte">Notre galerie</h2>
+      <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Donec sed leo in nisi vehicula bibendum. Aliquam sit amet blandit nisi, sodales molestie.</strong></p>
+
+      <div class="galerie-container">
+        <img src="ressource-agence-eco/resources/kevin-bhagat-zNRITe8NPqY-unsplash1.jpg" alt="exemple">
+      </div>
+      <div class="scroll mt-20">
+        <div class="btn-cercle">&lt;</div>
+        <div class="btn-cercle">&gt;</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="haut">
+      <div class="menu-footerhaut">
+       <ul>
+        <li><a href="#"><h2 class="haut-titre">Content</h2>
+          <p>consectetur</p><p>adipisicing</p></a></li>
+       </ul>   
+      </div>
+
+      <div class="menu-footerhaut"> 
+          <ul>
+            <li><a href="#a-propos"><h2 class="haut-titre">Informations</h2>
+            <p>consectetur</p><p>adipisicing</p></a></li>
+          </ul>
+      </div>
+
+      <div class="menu-footerhaut"> 
+          <ul>
+            <li><a href="#service"><h2 class="haut-titre">Services</h2>
+              <p>consectetur</p><p>adipisicing</p></a></li>
+          </ul>
+        
+      </div>
+
+      <div class="menu-footerhaut"> 
+          <ul>
+            <li><a href="#contact"><h2 class="haut-titre">Aide</h2>
+              <p>consectetur</p><p>adipisicing</p></a></li>
+          </ul>
+        
+      </div>
+
+      <div id="infos">
+        <div class="point-infos">
+          <a href="#"><i class="fa fa-phone"></i></a>
+          <div class="details">
+            <p>+33 00 00 00 00 00</p><p>+33 00 00 00 00 00</p>
+          </div>
+        </div>
+        
+        <div class="point-infos">
+          <a href="https://fr.mappy.com/plan/75001-paris"><i class="fa fa-map-marker"></i></a>
+          <div class="details">
+            <p>75001 Paris</p><p>France</p>
+          </div>
+        </div>            
+      </div>
+    </div>
+
+    <div id="bas">
+      <p>Copyright <i class="fa fa-copyright" style="font-size: 13px"></i> 2021 AGENCECO - All rights reserved</p>
+      <div id="reseaux">
+        <a href="https://www.facebook.com/?_rdr"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
